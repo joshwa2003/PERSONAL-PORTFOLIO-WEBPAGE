@@ -57,3 +57,19 @@ The portfolio demonstrates my ability to create pixel-perfect designs, implement
 There's exciting potential for future enhancements - adding a blog section, implementing a content management system, integrating with analytics, adding more interactive elements, or even converting it to a Progressive Web App. For now, I'm proud of creating a professional, engaging, and technically impressive portfolio that effectively showcases my capabilities as a modern web developer.
 
 ### Output:
+<img width="1440" alt="Screenshot 2025-06-29 at 4 25 46 PM" src="https://github.com/user-attachments/assets/8e06d957-b37f-48aa-a930-f783229cee3f" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 25 40 PM" src="https://github.com/user-attachments/assets/8046b819-ef16-45dc-964e-d1ad62157b97" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 25 34 PM" src="https://github.com/user-attachments/assets/fdc2f93e-59fd-4fe7-a892-e7dc0416b629" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 25 27 PM" src="https://github.com/user-attachments/assets/be5aa36b-2e75-4c29-aa65-7736b0b6459d" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 25 21 PM" src="https://github.com/user-attachments/assets/77bbc2bd-efd1-43b4-9e72-2530ccea0bf2" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 25 12 PM" src="https://github.com/user-attachments/assets/15e7a301-3d4c-4555-8a6a-2d383c1a198d" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 25 04 PM" src="https://github.com/user-attachments/assets/c606c348-b8bf-48a1-a19b-8770a42b730f" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 24 58 PM" src="https://github.com/user-attachments/assets/a9fdbac1-bfe1-400b-a127-2f7acc0f56b4" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 24 51 PM" src="https://github.com/user-attachments/assets/98d821d0-2e6c-42d5-a5c7-f07be6318eef" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 24 37 PM" src="https://github.com/user-attachments/assets/20b62342-5d75-4f7e-bbde-6facdd7f2b29" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 24 23 PM" src="https://github.com/user-attachments/assets/4664ac59-b2f0-43e3-87f1-d6aad9de2ad7" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 24 16 PM" src="https://github.com/user-attachments/assets/1b01cbd3-ec30-4fb0-8b87-47b7ff9333f0" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 24 06 PM" src="https://github.com/user-attachments/assets/2c438bab-6eb3-41cc-bbf1-08a85c55a9f3" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 23 53 PM" src="https://github.com/user-attachments/assets/02b62bf9-5c46-44ec-a63b-e2ee9421c5b5" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 23 36 PM" src="https://github.com/user-attachments/assets/106b325b-2eae-4387-a632-0ccf6d5723c0" />
+<img width="1440" alt="Screenshot 2025-06-29 at 4 23 29 PM" src="https://github.com/user-attachments/assets/bd10e798-bf46-4c94-abf7-817e28b5fc97" />
