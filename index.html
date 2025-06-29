@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshwa - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/my-image.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-text">
+                <span>J</span>
+                <span>O</span>
+                <span>S</span>
+                <span>H</span>
+                <span>W</span>
+                <span>A</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/my-image.png" alt="Joshwa" class="logo-img">
+                <span>Joshwa</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Joshwa</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I'm a <span class="typing-text" id="typing-text"></span>
+                    </h2>
+                    <p class="hero-description">
+                        I am an enthusiastic and adaptable person, always excited to embrace new challenges. My passion for learning drives me to produce excellent results. With a positive outlook and a commitment to growth, I am prepared to make a significant impact and achieve remarkable success.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            View My Work
+                        </a>
+                        <a href="https://github.com/joshwa2003" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="image-container">
+                    <img src="img/my-image.png" alt="Joshwa" class="profile-img">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Full Stack Developer</h3>
+                    <p>
+                        I am an enthusiastic and adaptable person, always excited to embrace new challenges. My passion for learning drives me to produce excellent results. With a positive outlook and a commitment to growth, I am prepared to make a significant impact and achieve remarkable success.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="1">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="10">0</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-img-container">
+                        <img src="img/my-image.png" alt="About Joshwa">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">Here are some of my skills on which I have been working on for the past 1 years.</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/css.png" alt="CSS">
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/js.png" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/reactjs.png" alt="React">
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/Bootstrap.png" alt="Bootstrap">
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="./img/Node-Js.png" alt="Node.js">
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/Express-Js.png" alt="Express.js">
+                            <span>Express.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/MySQL.png" alt="MySQL">
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/Firebase.png" alt="Firebase">
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Others</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/Netlify.png" alt="Netlify">
+                            <span>Netlify</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://joshwa-portfolio.vercel.app/static/media/vercel-img.09d8d4313da1955db545.png" alt="Vercel">
+                            <span>Vercel</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="./img/VS-Code.png" alt="VS Code">
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">I have worked on a wide range of projects. Here are some of my projects.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://joshwa-portfolio.vercel.app/static/media/RainbowTrust-img.2cfabe551da97e940b15.png" alt="Rainbow Trust">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/joshwa2003/rainbow-trust" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://rainbow-trust-demo.netlify.app" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Rainbow Trust</h3>
+                        <p class="project-date">Mar 2024 - May 2024</p>
+                        <p class="project-description">
+                            Rainbow Trust is a user-friendly website dedicated to showcasing the NGO's mission and impact. It features a seamless donation system for easy contributions. Visitors can explore various initiatives, read inspiring stories, and find different ways to support the cause.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://joshwa-portfolio.vercel.app/static/media/Hotstar-img.e6bc2e60eb1f92d7c0d8.png" alt="Disney+ Hotstar Clone">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/joshwa2003/disney-hotstar-clone" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://disney-hotstar-clone-demo.netlify.app" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Disney+ Hotstar Clone</h3>
+                        <p class="project-date">Apr 2024 - Apr 2024</p>
+                        <p class="project-description">
+                            I developed a Disney+ Hotstar clone during my internship at Veritech Software IT Company in Pune. The project included creating a fully designed landing page that mirrors the look and feel of the original platform.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://joshwa-portfolio.vercel.app/static/media/Restaurant-img.6e4e37cc74442b5ba52e.png" alt="Restaurant Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/joshwa2003/restaurant-website" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://restaurant-demo.netlify.app" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Restaurant Website</h3>
+                        <p class="project-date">Mar 2024 - Mar 2024</p>
+                        <p class="project-description">
+                            During my internship at Veritech Software IT Company in Pune, I developed a restaurant website. The project involved designing a visually appealing landing page that showcases the restaurant's theme and offerings.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="https://joshwa-portfolio.vercel.app/static/media/Team%20member-img.8292f5a5ff238dc97339.png" alt="Team Page Design">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/joshwa2003/team-page-design" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://team-page-demo.netlify.app" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Company Member Team Page Design</h3>
+                        <p class="project-date">Mar 2024 - Mar 2024</p>
+                        <p class="project-description">
+                            During my internship at Veritech Software IT Company in Pune, I created a Company Member Team Page. The project focused on developing a visually appealing and informative layout to present team members' profiles.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="https://joshwa-portfolio.vercel.app/static/media/todo-img.6918322c5d14e9d632cd.png" alt="Todo List">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/joshwa2003/todo-list-app" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://todo-list-demo.netlify.app" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Todo List</h3>
+                        <p class="project-date">Apr 2024 - Apr 2024</p>
+                        <p class="project-description">
+                            During my internship at Veritech Software IT Company in Pune, I developed a functional to-do list web application. The app allows users to add, delete, edit, and mark or unmark tasks.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My education has been a journey of self-discovery and growth. My educational details are as follows.</p>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <img src="https://joshwa-portfolio.vercel.app/static/media/SA-clg.814adbfc5f042fb0e482.webp" alt="S.A. College" class="education-logo">
+                                <div class="education-info">
+                                    <h3 class="institute-name">S.A. College of Arts & Science, Chennai</h3>
+                                    <p class="course">Bachelor of Computer Application</p>
+                                    <p class="date">Jun 2021 - Mar 2024</p>
+                                </div>
+                            </div>
+                            <div class="grade">Grade: 72.2%</div>
+                            <p class="education-description">
+                                I completed my Bachelor's degree in Bachelor of Computer Application at S.A. College of Arts & Science, Chennai. I have completed 5 semesters and have a 72.2%. I have taken courses in Data Structures, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <img src="https://joshwa-portfolio.vercel.app/static/media/SKMS.3383d5505fa129c452eb.png" alt="SKMS" class="education-logo">
+                                <div class="education-info">
+                                    <h3 class="institute-name">Shri Krishnaswamy Matriculation Higher Sec School, Anna Nagar</h3>
+                                    <p class="course">HSC(XII), Computer Science</p>
+                                    <p class="date">Apr 2020 - Apr 2021</p>
+                                </div>
+                            </div>
+                            <div class="grade">Grade: 79.7%</div>
+                            <p class="education-description">
+                                I completed my class 12 high school education at Shri Krishnaswamy Matriculation Higher Sec School, Anna Nagar, where I studied Computer Science.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <img src="https://joshwa-portfolio.vercel.app/static/media/SKMS.3383d5505fa129c452eb.png" alt="SKMS" class="education-logo">
+                                <div class="education-info">
+                                    <h3 class="institute-name">Shri Krishnaswamy Matriculation Higher Sec School, Anna Nagar</h3>
+                                    <p class="course">SSLC(X)</p>
+                                    <p class="date">Apr 2018 - Apr 2019</p>
+                                </div>
+                            </div>
+                            <div class="grade">Grade: 69.8%</div>
+                            <p class="education-description">
+                                I completed my class 10 education at Shri Krishnaswamy Matriculation Higher Sec School, Anna Nagar, building a strong foundation for my academic journey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="resume-content" data-aos="fade-up">
+                <div class="resume-text">
+                    <h2>Want to know more about my experience?</h2>
+                    <p>Check out my resume for detailed information about my skills, projects, and educational background.</p>
+                </div>
+                <a href="resume.pdf" download class="btn btn-primary resume-btn">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Feel free to reach out to me for any questions or opportunities. I'll get back to you as soon as possible!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 XXXXX XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Chennai, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="img/my-image.png" alt="Joshwa">
+                        <span>Joshwa</span>
+                    </div>
+                    <p>Full Stack Developer passionate about creating amazing web experiences.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/joshwa2003" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/your-profile" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://twitter.com/your-profile" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Joshwa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
